@@ -1,10 +1,10 @@
 # name-wordle
 
 From FreeCodeCamp tutorial: https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
+
 Edited for guessing a certain 6-letter name
 
-Possible Names:
-
+### Possible Names:
 Aarush
 Abbott
 Abdiel
