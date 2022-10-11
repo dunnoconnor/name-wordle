@@ -186,11 +186,7 @@ document.getElementById("keyboard-cont").addEventListener("click", (e) => {
     if (!target.classList.contains("keyboard-button")) {
         return
     }
-    let key = target.textContent
-
-    if (key === "Del") {
-        key = "Backspace"
-    } 
+    let key = target.id
 
     document.dispatchEvent(new KeyboardEvent("keyup", {'key': key}))
 })

@@ -50,7 +50,9 @@ h1 {
      font-weight: 700;
      border-radius: 5px;
      border-width: 1px;
+     text-align: center;
      width: 30px;
+     height: 40px;
      margin: 0 2px;
      cursor: pointer;
      text-transform: uppercase;
