@@ -105,7 +105,11 @@ function checkGuess () {
     }
 
     if (guessString === rightGuessString) {
-        toastr.success(`It's Kieran Daniel Dunn-O'Connor!`)
+        const node = document.createElement("h1");
+        const textNode = document.createTextNode("It's Kieran Daniel Dunn-O'Connor!");
+        node.appendChild(textNode);
+        document.getElementById("end-screen").appendChild(node);
+        //toastr.success(`It's Kieran Daniel Dunn-O'Connor!`)
         guessesRemaining = 0
         return
     } else {
@@ -115,7 +119,6 @@ function checkGuess () {
 
         if (guessesRemaining === 0) {
             toastr.error("You've run out of guesses! Game over!")
-            toastr.info(`It's Kieran Daniel Dunn-O'Connor!`)
         }
     }
 }

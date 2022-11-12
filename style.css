@@ -58,3 +58,8 @@ h1 {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+#end-screen {
+  text-align: center;
+  color: green;
+}
